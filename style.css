@@ -88,6 +88,10 @@ p{
 .change-container{
     align-self: center;
     margin-left: 50px;
+    transition-duration: 0.4s;
+}
+.change-container:hover{
+    color: black;
 }
 
 
