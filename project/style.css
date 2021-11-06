@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+html{
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    background-color: hsl(225, 100%, 94%);
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+h1{
+    font-weight: 900;
+    font-family: 'Red Hat Display', sans-serif;
+}
+img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 100;
+    color: grey;
+    margin-right: 15px;
+    line-height: 0.001em;
+}
+.box-container{
+    text-align: center;
+    background: white;
+    width: 450px;
+    height: 800px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px grey;
+}
+.summary{
+    font-family: 'Red Hat Display', sans-serif;
+    color: grey;
+    font-size: 16px;
+    margin: auto;
+    width: 300px;
+}
+.bottom-button-container{
+    position: relative;
+    bottom: -100px;
+}
+#proceedBtn{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+    background-color: hsl(245, 75%, 52%);
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 10px 10px 20px grey;
+    transition-duration: 0.4s;
+}
+#proceedBtn:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+#cancelBtn{
+    transition-duration: 0.4s;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: grey;
+}
+#cancelBtn:hover{
+    color: black;
+}
+
+.annual-plan-container{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 370px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px grey;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+}
+.img-container{
+    align-self: center;
+}
+.change-container{
+    align-self: center;
+    margin-left: 50px;
+}
+
+
